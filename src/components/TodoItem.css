@@ -1,0 +1,30 @@
+
+.pending {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding: 10px 5px;
+    display: flex;
+    border-bottom: 1px solid #EEE;
+    
+    /* border-bottom: none; */
+}
+
+.pending:last-child {
+    border-bottom: none;
+}
+
+.pending > p {
+    margin: 0 0 0 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.done > p {
+    opacity: .3;
+}
+  
+  

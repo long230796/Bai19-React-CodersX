@@ -1,5 +1,27 @@
 .App {
-  text-align: center;
+  width: 500px;
+  margin: auto;
+  border: 1px solid #EEE;
+}
+
+.App .Header {
+  padding: 10px 5px;
+  display: flex;
+  border-bottom: 1px solid #EEE;
+}
+
+.App .Header > input {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+}
+
+/* focus là lúc mà nó được trỏ vào */
+.App .Header > input:focus {
+  outline: none;
 }
 
 .App-logo {
